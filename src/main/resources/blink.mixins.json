@@ -1,12 +1,15 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.codestian.blink.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EndermanMixin"
   ],
   "client": [
-    "ExampleMixin"
+    "BlinkTimerMixin",
+    "drawableHelperInvoker",
+    "EyeClosedAttributeMixin"
   ],
   "injectors": {
     "defaultRequire": 1

@@ -1,9 +1,12 @@
-# Fabric Example Mod
+# Blink 
 
-## Setup
+A simple Minecraft Fabric mod which adds blinking as a game mechanic. If you are playing on multiplayer, it needs to be installed on both client and server.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+## How it works
 
-## License
+With the default configuration, an automatic blink occurs every 10-15 seconds. 
+If you would like to manually close and open your eyes, press and hold the `r` key.
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Staring at an enderman with eyes closed will not turn it hostile, similar to wearing Jack o'Lanterns.
+
+The animation duration, and range of time the blink occurs can be configured in `blinkconfig.properties`.
